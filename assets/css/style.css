@@ -1,0 +1,46 @@
+@font-face{
+	src: url(../fonts/SigmarOne-Regular.ttf);
+	font-family: SigmarOne;
+}
+@font-face{
+	src: url(../fonts/Oswald-VariableFont_wght.ttf);
+	font-family: Oswald-Variable;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.post {
+	width: 700px;
+	background-color: black;
+	overflow: hidden;
+	margin: 50px auto;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.post h1{
+	font-family: SigmarOne;
+	color: white;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.post h1 span:nth-child(1){
+	color: red;
+}
+.post h1 span:nth-child(2){
+	color: green;
+	text-decoration: underline;
+}
+.post img{
+	width: 500px;
+	margin-bottom: 20px;
+}
+.post p{
+	font-family: Oswald-Variable;
+	font-size: 16px;
+	text-align: justify;
+	margin-bottom: 20px;
+	color: yellow;
+}
